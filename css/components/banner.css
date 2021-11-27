@@ -1,0 +1,19 @@
+
+.banner{
+    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)),
+    url("../../images/japan.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 220px 0;
+    color: white;
+}
+.banner h1, .banner p{
+    margin: 0;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgb(54, 50, 50);
+}
+
+.banner p{
+    padding-bottom: 26px;
+    font-size: 24px;
+}

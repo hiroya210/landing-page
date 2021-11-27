@@ -1,0 +1,10 @@
+.banner a{
+    text-decoration: none;
+    background-color: rgb(231, 66, 66);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+

@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    font-size: 20px;
+}
+
+.header img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+
+.cards h5{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.card{
+    border: 1px solid rgba(103, 103, 138, 0.541);
+    font-size: 20px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 1px 1px 8px rgba(53, 51, 50, 0.2);
+    background-color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.card:hover#train{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 16px rgba(53, 51, 50, 0.8);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/landing/images/trains.gif");
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+.card:hover#sakura{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 16px rgba(53, 51, 50, 0.8);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/landing/images/sakura.gif");
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+.card:hover#security{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 16px rgba(53, 51, 50, 0.8);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/landing/images/secure.gif");
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+
+.card img{
+    object-fit: contain;
+    height: 100px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
